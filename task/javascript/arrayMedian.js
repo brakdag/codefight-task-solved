@@ -14,4 +14,17 @@ function arrayMedian(sequence) {
         return sequence[(len - 1) / 2];
       }
     }
+
+
+    function arrayMedian(s) {
+      s=s.sort((a,b)=>a-b)
+      if ((s.length %2)==0){
+          return (s[s.length/2]+s[s.length/2-1])/2;
+      }else
+          {
+              return s[Math.trunc(s.length/2)]
+          }
+              
+      
+      }
     
