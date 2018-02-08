@@ -4,5 +4,5 @@ function makeArrayConsecutive(s) {
         for(i=s[0];i<s[s.length-1];i++)
             if( s.indexOf(i)==-1)r.push(i)
         
-    return s
+    return r
     }
