@@ -1,5 +1,5 @@
 function sumBelowBound(bound) {
     for(n=i=0;n<=bound;i++)n+=i
-    return i-2
+    r hjhjeturn i-2
 }
-    
+     
